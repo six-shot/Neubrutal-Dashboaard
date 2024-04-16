@@ -102,56 +102,92 @@ const Overview = () => {
               </h6>
             </div>
             <div className="flex flex-col">
-              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+              <div className="flex py-[16px] gap-2 border-b-[1px] border-black">
                 <div className="w-[40px] h-[40px]  rounded-full">
                   <Image src={man} className="rounded-full" alt="man" />
                 </div>
                 <div className="">
-                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
-                  <p className="text-[#575757] text-xs font-clash_regular">
+                  <div className="flex justify-between items-start">
+                    <h6 className="text-sm font-clash_medium ">
+                      Charlie Sheen
+                    </h6>
+                    <h6 className="text-[10px] text-[#575757] font-clash_regular">
+                      12:45 PM
+                    </h6>
+                  </div>
+
+                  <p className="text-[#575757] text-xs font-clash_regular ">
                     Let&apos;s connect for a quick discussion...
                   </p>
                 </div>
               </div>
-              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+              <div className="flex py-[16px] gap-2 border-b-[1px] border-black">
                 <div className="w-[40px] h-[40px]  rounded-full">
                   <Image src={man2} className="rounded-full" alt="man" />
                 </div>
                 <div className="">
-                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <div className="flex justify-between items-start">
+                    <h6 className="text-sm font-clash_medium ">
+                      Charlie Sheen
+                    </h6>
+                    <h6 className="text-[10px] text-[#575757] font-clash_regular">
+                      12:45 PM
+                    </h6>
+                  </div>
                   <p className="text-[#575757] text-xs font-clash_regular">
                     Let&apos;s connect for a quick discussion...
                   </p>
                 </div>
               </div>
-              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+              <div className="flex py-[16px] gap-2 border-b-[1px] border-black">
                 <div className="w-[40px] h-[40px]  rounded-full">
                   <Image src={man3} className="rounded-full" alt="man" />
                 </div>
                 <div className="">
-                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <div className="flex justify-between items-start">
+                    <h6 className="text-sm font-clash_medium ">
+                      Charlie Sheen
+                    </h6>
+                    <h6 className="text-[10px] text-[#575757] font-clash_regular">
+                      12:45 PM
+                    </h6>
+                  </div>
                   <p className="text-[#575757] text-xs font-clash_regular">
                     Let&apos;s connect for a quick discussion...
                   </p>
                 </div>
               </div>
-              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+              <div className="flex py-[16px] gap-2 border-b-[1px] border-black">
                 <div className="w-[40px] h-[40px]  rounded-full">
                   <Image src={man4} className="rounded-full" alt="man" />
                 </div>
                 <div className="">
-                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <div className="flex justify-between items-start">
+                    <h6 className="text-sm font-clash_medium ">
+                      Charlie Sheen
+                    </h6>
+                    <h6 className="text-[10px] text-[#575757] font-clash_regular">
+                      12:45 PM
+                    </h6>
+                  </div>
                   <p className="text-[#575757] text-xs font-clash_regular">
                     Let&apos;s connect for a quick discussion...
                   </p>
                 </div>
               </div>
-              <div className="flex py-[18px] gap-2 ">
+              <div className="flex pt-[18px] gap-2 ">
                 <div className="w-[40px] h-[40px]  rounded-full">
                   <Image src={man5} className="rounded-full" alt="man" />
                 </div>
                 <div className="">
-                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <div className="flex justify-between items-start">
+                    <h6 className="text-sm font-clash_medium ">
+                      Charlie Sheen
+                    </h6>
+                    <h6 className="text-[10px] text-[#575757] font-clash_regular">
+                      12:45 PM
+                    </h6>
+                  </div>
                   <p className="text-[#575757] text-xs font-clash_regular">
                     Let&apos;s connect for a quick discussion...
                   </p>

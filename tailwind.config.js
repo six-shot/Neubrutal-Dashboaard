@@ -7,10 +7,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        clash_bold: ["var(--font-clash_bold)"],
+        clash_regular: ["var(--font-clash_regular)"],
+        clash_medium: ["var(--font-clash_medium)"],
+        clash_semibold: ["var(--font-clash_semibold)"],
+        clash_extralight: ["var(--font-clash_extralight)"],
+        lato: ["var(--lato)"],
       },
     },
   },

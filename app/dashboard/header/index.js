@@ -49,7 +49,7 @@ export default function Header() {
 
   return (
     <header className="">
-      <div className="w-full flex justify-between items-center h-[12vh] px-[4%] border-b-[1px] border-black">
+      <div className="w-full flex justify-between items-center h-[10vh] px-[4%] border-b-[1px] border-black">
         <div className="">
           <h3 className=" text-xl font-clash_bold">Tasker</h3>
         </div>

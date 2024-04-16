@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import arrowdown from "@/public/arrow-down.png"
 import Calendar from "../calendar";
+import bottom from "@/public/chart.png"
 
 export default function ProjectMap() {
   return (
@@ -26,7 +27,10 @@ export default function ProjectMap() {
             </div>
           </div>
         </div>
-        <Calendar/>
+        <div className="mt-[20px]">
+          {" "}
+          <Image src={bottom} alt="bottom" />
+        </div>
       </div>
     </div>
   );

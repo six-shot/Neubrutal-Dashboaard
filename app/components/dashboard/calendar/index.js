@@ -4,7 +4,7 @@ export default function Calendar() {
   return (
     <div>
       <div className="w-full mt-[20px] bg-white border border-black rounded-[24px] px-4 ">
-        <div className=" overflow-x-hidden flex ">
+        {/* <div className=" overflow-x-hidden flex ">
           <div className="border-r-[1px] border-[#E0E0E0] py-[12px] px-[16px]">
             <h6 className="text-sm font-clash_medium">APR</h6>
             <div className="flex gap-8">
@@ -72,7 +72,8 @@ export default function Calendar() {
               </div>{" "}
             </div>
           </div>
-        </div>
+        </div> */}
+        <Imagez/>
       </div>
     </div>
   );

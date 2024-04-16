@@ -4,6 +4,7 @@ import calendarshadow from "@/public/calendarshadow.png";
 import timershadow from "@/public/timershadow.png";
 import doneshadow from "@/public/doneshadow.png";
 import timer from "@/public/timer.png";
+import done from "@/public/done.png";
 import Image from "next/image";
 
 const Overview = () => {
@@ -13,7 +14,7 @@ const Overview = () => {
         <div>
           <h4 className="font-clash_semibold text-[32px]">Overview</h4>
           <h6 className="text-sm text-[#575757] font-clash_regular">
-            Have a bird's eye view of all your projects
+            Have a bird&apos;s eye view of all your projects
           </h6>
         </div>
         <button className="px-6 py-3 flex items-center gap-3 font-sm text-black font-clash_semibold bg-[#EB7B26] rounded-[32px] border-[2px] border-black">
@@ -21,7 +22,7 @@ const Overview = () => {
           <h6>Add New Project</h6>
         </button>
       </div>
-      <div className="grid grid-cols-12 items-center ">
+      <div className="grid grid-cols-12  gap-[34px] mt-8">
         <div className="col-span-9 w-full">
           <div className="flex gap-6">
             <div className="w-full">
@@ -50,7 +51,7 @@ const Overview = () => {
                       <Image src={timer} alt="timer" />
                     </div>
                     <h5 className="font-clash_medium text-lg mt-3 mb-2">
-                      Upcoming Tasks
+                      In-Progress Tasks
                     </h5>
                     <h4 className="font-clash_semibold text-[40px]">40</h4>
                   </div>
@@ -65,10 +66,10 @@ const Overview = () => {
                 <div className="">
                   <div className=" bg-[#0BC56D] w-full p-4 rounded-[24px]">
                     <div className="bg-[#15B569] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
-                      <Image src={calendar} alt="calendar" />
+                      <Image src={done} alt="done" />
                     </div>
                     <h5 className="font-clash_medium text-lg mt-3 mb-2">
-                      Upcoming Tasks
+                      Completed Tasks
                     </h5>
                     <h4 className="font-clash_semibold text-[40px]">40</h4>
                   </div>
@@ -81,6 +82,15 @@ const Overview = () => {
                   />
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-span-3 w-full">
+          <div className="w-full bg-white border border-black rounded-[24px]">
+            <div>
+              <h5 className="font-clash_medium text-lg mt-3 mb-2">
+                Upcoming Tasks
+              </h5>
             </div>
           </div>
         </div>

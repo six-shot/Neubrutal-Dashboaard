@@ -14,9 +14,10 @@ const style = {
 };
 const Layout = ({ children }) => {
   return (
-    <div className="px-[3%] py-[3%] bg-black" style={style.bg}>
+    // <div className="px-[3%] py-[3%] bg-black" style={style.bg}>
+    <div>
       <div className="max-w-[1440px] mx-auto">
-        <div className="w-full h-full bg-transparent p-[12px]  border-[8px] bg-[#FFFAE5] rounded-[32px]">
+        <div className="w-full h-full  p-[12px]   bg-[#FFFAE5]">
           <div className="w-full h-screen bg-[#FFFAE5] rounded-[32px]">
             <Header />
             {children}

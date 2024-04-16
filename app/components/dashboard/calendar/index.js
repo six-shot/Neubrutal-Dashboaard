@@ -73,7 +73,7 @@ export default function Calendar() {
             </div>
           </div>
         </div> */}
-        <Imagez/>
+   
       </div>
     </div>
   );

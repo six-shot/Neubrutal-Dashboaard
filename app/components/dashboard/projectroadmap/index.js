@@ -9,7 +9,7 @@ export default function ProjectMap() {
       <div className="mt-10">
         <div className="flex justify-between items-center">
           <h5 className="font-clash_semibold text-lg mt-3 mb-2">
-            Upcoming Tasks
+            Project Roadmap
           </h5>
           <div className="flex gap-[14px]">
             <button className="bg-[#FFF1B7] px-[16px] py-[12px] rounded-[32px] text-xs font-clash_regular flex items-center gap-[6px] text-[#0F0F0F]">

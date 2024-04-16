@@ -6,10 +6,17 @@ import doneshadow from "@/public/doneshadow.png";
 import timer from "@/public/timer.png";
 import done from "@/public/done.png";
 import Image from "next/image";
+import man from "@/public/man1.png";
+import man2 from "@/public/man2.png";
+import man3 from "@/public/man3.png";
+import man4 from "@/public/man4.png";
+import man5 from "@/public/man5.png";
+import ProjectMap from "../components/dashboard/projectroadmap";
+import Task from "../components/dashboard/tasks";
 
 const Overview = () => {
   return (
-    <div className="px-[5%] pt-8">
+    <div className="px-[4%] pt-8">
       <div className="w-full flex justify-between items-center">
         <div>
           <h4 className="font-clash_semibold text-[32px]">Overview</h4>
@@ -22,7 +29,7 @@ const Overview = () => {
           <h6>Add New Project</h6>
         </button>
       </div>
-      <div className="grid grid-cols-12  gap-[34px] mt-8">
+      <div className="grid grid-cols-12  gap-[28px] mt-8">
         <div className="col-span-9 w-full">
           <div className="flex gap-6">
             <div className="w-full">
@@ -84,14 +91,76 @@ const Overview = () => {
               </div>
             </div>
           </div>
+          <ProjectMap />
         </div>
         <div className="col-span-3 w-full">
-          <div className="w-full bg-white border border-black rounded-[24px]">
-            <div>
-              <h5 className="font-clash_medium text-lg mt-3 mb-2">
-                Upcoming Tasks
-              </h5>
+          <div className="w-full bg-white border border-black rounded-[24px] p-4">
+            <div className="flex justify-between items-center">
+              <h5 className="font-clash_medium text-lg ">Recent Messages</h5>
+              <h6 className="text-sm font-clash_medium text-[#EB7B26]">
+                View all
+              </h6>
             </div>
+            <div className="flex flex-col">
+              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+                <div className="w-[40px] h-[40px]  rounded-full">
+                  <Image src={man} className="rounded-full" alt="man" />
+                </div>
+                <div className="">
+                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <p className="text-[#575757] text-xs font-clash_regular">
+                    Let&apos;s connect for a quick discussion...
+                  </p>
+                </div>
+              </div>
+              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+                <div className="w-[40px] h-[40px]  rounded-full">
+                  <Image src={man2} className="rounded-full" alt="man" />
+                </div>
+                <div className="">
+                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <p className="text-[#575757] text-xs font-clash_regular">
+                    Let&apos;s connect for a quick discussion...
+                  </p>
+                </div>
+              </div>
+              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+                <div className="w-[40px] h-[40px]  rounded-full">
+                  <Image src={man3} className="rounded-full" alt="man" />
+                </div>
+                <div className="">
+                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <p className="text-[#575757] text-xs font-clash_regular">
+                    Let&apos;s connect for a quick discussion...
+                  </p>
+                </div>
+              </div>
+              <div className="flex py-[18px] gap-2 border-b-[1px] border-black">
+                <div className="w-[40px] h-[40px]  rounded-full">
+                  <Image src={man4} className="rounded-full" alt="man" />
+                </div>
+                <div className="">
+                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <p className="text-[#575757] text-xs font-clash_regular">
+                    Let&apos;s connect for a quick discussion...
+                  </p>
+                </div>
+              </div>
+              <div className="flex py-[18px] gap-2 ">
+                <div className="w-[40px] h-[40px]  rounded-full">
+                  <Image src={man5} className="rounded-full" alt="man" />
+                </div>
+                <div className="">
+                  <h6 className="text-sm font-clash_medium">Charlie Sheen</h6>
+                  <p className="text-[#575757] text-xs font-clash_regular">
+                    Let&apos;s connect for a quick discussion...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-[28px]">
+            <Task />
           </div>
         </div>
       </div>

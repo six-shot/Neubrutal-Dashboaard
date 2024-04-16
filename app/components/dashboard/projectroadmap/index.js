@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import arrowdown from "@/public/arrow-down.png"
+import Calendar from "../calendar";
 
 export default function ProjectMap() {
   return (
@@ -25,6 +26,7 @@ export default function ProjectMap() {
             </div>
           </div>
         </div>
+        <Calendar/>
       </div>
     </div>
   );

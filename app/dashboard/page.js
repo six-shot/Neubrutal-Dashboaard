@@ -29,7 +29,7 @@ const Overview = () => {
           <h6>Add New Project</h6>
         </button>
       </div>
-      <div className="grid grid-cols-12  gap-[28px] mt-8">
+      <div className="grid grid-cols-12  gap-[24px] mt-8">
         <div className="col-span-9 w-full">
           <div className="flex gap-6">
             <div className="w-full">
@@ -39,7 +39,7 @@ const Overview = () => {
                     <div className="bg-[#FF7CA4] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
                       <Image src={calendar} alt="calendar" />
                     </div>
-                    <h5 className="font-clash_medium text-lg mt-3 mb-2">
+                    <h5 className="font-clash_medium text-lg mt-3 ">
                       Upcoming Tasks
                     </h5>
                     <h4 className="font-clash_semibold text-[40px]">40</h4>
@@ -57,10 +57,10 @@ const Overview = () => {
                     <div className="bg-[#FFC23D] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
                       <Image src={timer} alt="timer" />
                     </div>
-                    <h5 className="font-clash_medium text-lg mt-3 mb-2">
+                    <h5 className="font-clash_medium text-lg mt-3 ">
                       In-Progress Tasks
                     </h5>
-                    <h4 className="font-clash_semibold text-[40px]">40</h4>
+                    <h4 className="font-clash_semibold text-[40px]">24</h4>
                   </div>
                 </div>
                 <div className="absolute bottom-0 right-[1px]">
@@ -75,10 +75,10 @@ const Overview = () => {
                     <div className="bg-[#15B569] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
                       <Image src={done} alt="done" />
                     </div>
-                    <h5 className="font-clash_medium text-lg mt-3 mb-2">
+                    <h5 className="font-clash_medium text-lg mt-3 ">
                       Completed Tasks
                     </h5>
-                    <h4 className="font-clash_semibold text-[40px]">40</h4>
+                    <h4 className="font-clash_semibold text-[40px]">75</h4>
                   </div>
                 </div>
                 <div className="absolute   bottom-0 right-0 ">
@@ -195,7 +195,7 @@ const Overview = () => {
               </div>
             </div>
           </div>
-          <div className="mt-[28px]">
+          <div className="mt-[24px]">
             <Task />
           </div>
         </div>

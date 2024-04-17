@@ -146,6 +146,30 @@ export default function Header() {
         </div>
       </div>
       {/* Mobile header */}
+      <div className="p-[4%] flex justify-between items-center">
+        <div className="flex gap-2 items-center">
+          <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
+            <Image src={user} alt="user" />
+          </div>
+          <div className="flex flex-col">
+            <h5 className="leading-[20px]">
+              <span className="font-clash_regular text-xs">Welcome</span>{" "}
+              &#128075;
+            </h5>
+            <h5 className=" text-sm font-clash_medium">Rohan Kumar</h5>
+          </div>
+        </div>
+        <div className="flex-gap-2">
+          <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
+            <CiSearch
+              onClick={() => {
+                setShowModal(true);
+              }}
+              className="text-[20px] cursor-pointer"
+            />
+          </div>
+        </div>
+      </div>
     </header>
   );
 }

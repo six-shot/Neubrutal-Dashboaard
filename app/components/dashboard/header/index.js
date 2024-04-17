@@ -31,22 +31,22 @@ export default function Header() {
         },
         {
           title: "Projects",
-          path: "/projects",
+          path: "/dashboard/projects",
           icon: <MdStickyNote2 />,
         },
         {
           title: "Team",
-          path: "/team",
+          path: "/dashboard/team",
           icon: <AiOutlineUsergroupAdd />,
         },
         {
           title: "Calendar",
-          path: "/calendar",
+          path: "/dashboard/calendar",
           icon: <MdOutlineCalendarMonth />,
         },
         {
           title: "Messages",
-          path: "/messages",
+          path: "/dashboard/messages",
           icon: <MdOutlineMessage />,
           number: "5",
         },
@@ -147,7 +147,7 @@ export default function Header() {
         </div>
       </div>
       {/* Mobile header */}
-      <div className="px-[4%] pt-[5%] flex sm:hidden justify-between items-center">
+      <div className="px-[4%] py-[5%] flex sm:hidden justify-between items-center">
         <div className="flex gap-2 items-center">
           <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
             <Image src={user} alt="user" />

@@ -1,4 +1,3 @@
-
 import {
   MdDashboard,
   MdStickyNote2,
@@ -22,22 +21,22 @@ export default function BottomNav() {
         },
         {
           title: "Projects",
-          path: "/projects",
+          path: "/dashboard/projects",
           icon: <MdStickyNote2 />,
         },
         {
           title: "Team",
-          path: "/team",
+          path: "/dashboard/team",
           icon: <AiOutlineUsergroupAdd />,
         },
         {
           title: "Calendar",
-          path: "/calendar",
+          path: "/dashboard/calendar",
           icon: <MdOutlineCalendarMonth />,
         },
         {
           title: "Messages",
-          path: "/messages",
+          path: "/dashboard/messages",
           icon: <MdOutlineMessage />,
           number: "5",
         },

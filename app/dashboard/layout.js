@@ -1,6 +1,6 @@
-import BottomNav from "./bottomnav";
-import Header from "./header";
-import bgg from "@/public/mask.png"
+import BottomNav from "../components/dashboard/bottomnav";
+import Header from "../components/dashboard/header";
+import bgg from "@/public/mask.png";
 const style = {
   bg: {
     backgroundImage: ` url(${bgg.src})`,
@@ -10,7 +10,7 @@ const style = {
     backgroundRepeat: "no-repeat",
     width: "100%",
     height: "100%",
-    overfloe:"hidden"
+    overfloe: "hidden",
   },
 };
 const Layout = ({ children }) => {
@@ -25,8 +25,8 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </div>
-        <div className="sm:hidden fixed z-10 bottom-0  w-full">
-        <BottomNav/>
+      <div className="sm:hidden fixed z-10 bottom-0  w-full">
+        <BottomNav />
       </div>
     </div>
   );

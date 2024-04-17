@@ -47,7 +47,7 @@ export default function BottomNav() {
   return (
     <div>
       <nav className="">
-        <ul className="w-full h-[10vh] bg-[#FFFAE5] border-t-[1px] border-black flex items-center px-[4%]">
+        <ul className="w-full h-[8vh] bg-[#FFFAE5] border-t-[1px] border-black flex items-center px-[4%]">
           {headerItems.map((menu) => (
             <li key={menu.title} className="flex justify-between w-full">
               {menu.list.map((item) => (

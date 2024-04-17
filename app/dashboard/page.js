@@ -16,7 +16,7 @@ import Task from "../components/dashboard/tasks";
 
 const Overview = () => {
   return (
-    <div className="px-[4%] pt-8">
+    <div className="px-[4%]  pt-8">
       <div className="w-full flex sm:flex-row flex-col justify-between sm:items-center">
         <div>
           <h4 className="font-clash_semibold text-[32px]">Overview</h4>

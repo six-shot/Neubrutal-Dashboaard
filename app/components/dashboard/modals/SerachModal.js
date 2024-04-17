@@ -13,7 +13,7 @@ export default function SearchModal({ visible, onClose }) {
       className="fixed z-20 inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-start  pt-[7%] justify-center"
       onClick={handleClose}
     >
-      <div className="bg-[#FC95B4] w-[600px] px-[2%] pt-[2%] pb-[7%] rounded-xl">
+      <div className="bg-[#FC95B4] sm:w-[600px] w-full px-[2%] pt-[2%] pb-[7%] rounded-xl">
         <div className="flex gap-3 items-center">
           <div className="flex items-center gap-2 px-3 w-full h-[40px] bg-[#FFFAE5] rounded-lg">
             <RiSearch2Line className="text-[20px] text-[#FC95B4]" />

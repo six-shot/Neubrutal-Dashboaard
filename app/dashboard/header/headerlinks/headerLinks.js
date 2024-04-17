@@ -12,10 +12,11 @@ const HeaderLink = ({ item }) => {
         pathname === item.path && "text-[#FE7124]"
       }`}
     >
-      <span className="relative">
-        <h5 className="text-xl">{item.icon}</h5>
+      <h5 className="text-lg sm:flex hidden ">{item.icon}</h5>
+      <span className="relative sm:hidden flex">
+        <h5 className="text-[24px]">{item.icon}</h5>
         {item.number ? (
-          <h6 className=" sm:hidden absolute -top-[6px] right-0 font-clash_medium border border-black text-[10px] w-[15px] h-[15px] flex justify-center items-center rounded-full bg-[#0BC56D]">
+          <h6 className="  absolute -top-[6px] right-0 font-clash_medium border border-black text-[10px] w-[15px] h-[15px] flex justify-center items-center rounded-full bg-[#0BC56D]">
             5
           </h6>
         ) : (

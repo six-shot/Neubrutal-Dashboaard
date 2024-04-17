@@ -58,7 +58,8 @@ export default function Header() {
 
   return (
     <header className="">
-      <div className=" relative w-full flex justify-between items-center h-[11vh] px-[4%] border-b-[1px] border-black">
+      {/* Desktop header */}
+      <div className=" relative w-full sm:flex hidden justify-between items-center h-[11vh] px-[4%] border-b-[1px] border-black">
         <div className="">
           <h3 className=" text-xl font-clash_bold">Tasker</h3>
         </div>
@@ -144,6 +145,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+      {/* Mobile header */}
     </header>
   );
 }

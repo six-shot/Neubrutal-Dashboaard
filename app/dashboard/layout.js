@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </div>
-        <div className="fixed z-10 bottom-0  w-full">
+        <div className="sm:hidden fixed z-10 bottom-0  w-full">
         <BottomNav/>
       </div>
     </div>

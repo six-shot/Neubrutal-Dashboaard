@@ -147,7 +147,7 @@ export default function Header() {
         </div>
       </div>
       {/* Mobile header */}
-      <div className="px-[4%] pt-[5%] flex justify-between items-center">
+      <div className="px-[4%] pt-[5%] flex sm:hidden justify-between items-center">
         <div className="flex gap-2 items-center">
           <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
             <Image src={user} alt="user" />

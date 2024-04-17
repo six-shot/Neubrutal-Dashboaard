@@ -1,3 +1,4 @@
+import BottomNav from "./bottomnav";
 import Header from "./header";
 import bgg from "@/public/mask.png"
 const style = {
@@ -15,7 +16,7 @@ const style = {
 const Layout = ({ children }) => {
   return (
     // <div className="px-[3%] py-[3%] bg-black" style={style.bg}>
-    <div>
+    <div className="relative">
       <div className="max-w-[1440px] mx-auto">
         <div className="w-full h-full    bg-[#FFFAE5]">
           <div className="w-full h-screen bg-[#FFFAE5] rounded-[32px]">
@@ -23,6 +24,9 @@ const Layout = ({ children }) => {
             {children}
           </div>
         </div>
+      </div>
+        <div className="fixed z-10 bottom-0  w-full">
+        <BottomNav/>
       </div>
     </div>
   );

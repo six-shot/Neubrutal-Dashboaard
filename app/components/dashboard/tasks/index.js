@@ -9,7 +9,7 @@ export default function Task() {
       <h5 className="font-clash_medium text-[24px]">Today&apos;s tasks</h5>
       <div className="flex justify-between items-center py-[21px] border-b-[1px] border-black">
         <div className="flex items-start gap-[10px]">
-          <div className="w-[53px] h-[53px] border border-black rounded-full flex justify-center items-center">
+          <div className="sm:w-[53px] w-[43px] h-[43px] sm:h-[53px] border border-black rounded-full flex justify-center items-center">
             <Image src={call} alt="call" />
           </div>
           <div>
@@ -21,11 +21,11 @@ export default function Task() {
             </h6>
           </div>
         </div>
-        <div className="w-[21px] h-[21px] rounded-full border border-black"></div>
+        <div className="sm:w-[21px] w-[18px] h-[18px] sm:h-[21px] rounded-full border border-black"></div>
       </div>
       <div className="flex justify-between items-center py-[21px] border-b-[1px] border-black">
         <div className="flex items-start gap-[10px]">
-          <div className="w-[53px] h-[53px] border border-[#b3b3b3] rounded-full flex justify-center items-center">
+          <div className="sm:w-[53px] w-[43px] h-[43px] sm:h-[53px] border border-[#b3b3b3] rounded-full flex justify-center items-center">
             <Image src={document} alt="call" />
           </div>
           <div>
@@ -37,13 +37,13 @@ export default function Task() {
             </h6>
           </div>
         </div>
-        <div className="w-[21px] h-[21px] rounded-full border border-black bg-[#EB7B26] flex justify-center items-center">
+        <div className="sm:w-[21px] w-[18px] h-[18px] sm:h-[21px] rounded-full border border-black bg-[#EB7B26] flex justify-center items-center">
           <Image src={check} alt="check" />
         </div>
       </div>
       <div className="flex justify-between items-center py-[21px] border-b-[1px] border-black">
         <div className="flex items-start gap-[10px]">
-          <div className="w-[53px] h-[53px] border border-black rounded-full flex justify-center items-center">
+          <div className="sm:w-[53px] w-[43px] h-[43px] sm:h-[53px] border border-black rounded-full flex justify-center items-center">
             <Image src={call} alt="call" />
           </div>
           <div>
@@ -55,7 +55,7 @@ export default function Task() {
             </h6>
           </div>
         </div>
-        <div className="w-[21px] h-[21px] rounded-full border border-black"></div>
+        <div className="sm:w-[21px] w-[18px] h-[18px] sm:h-[21px] rounded-full border border-black"></div>
       </div>
     </div>
   );

@@ -5,10 +5,12 @@ import React from "react";
 function Messages() {
   return (
     <div>
+      {/* desktop design */}
+   
       {/* mobile deisgn */}
       <div className="sm:hidden block">
-        <div className=" px-[4%] mt-[9vh]">
-          <h5 className="font-clash_semibold text-2xl">Messages</h5>
+        <div className=" px-[4%] mt-[12vh]">
+          {/* <h5 className="font-clash_semibold text-2xl">Messages</h5> */}
           <div className="px-[18%] mt-[2%]">
             <div className="bg-[#FFF1B7] flex  rounded-[32px] p-[5px]">
               <button className="bg-white border border-black w-full py-[12px] rounded-[32px] text-xs font-clash_semibold  text-[#0F0F0F]">

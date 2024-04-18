@@ -147,7 +147,7 @@ export default function Header() {
         </div>
       </div>
       {/* Mobile header */}
-      <div className="sm:hidden top-0 w-full bg-[#FFFAE5] border-b-[1px] border-black fixed">
+      <div className="sm:hidden z-[100] top-0 w-full bg-[#FFFAE5] border-b-[1px] border-black fixed">
         <div className="h-[8vh] px-[4%] py-[5%] flex justify-between items-center">
           <div className="flex gap-2 items-center">
             <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">

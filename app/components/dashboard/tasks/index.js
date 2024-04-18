@@ -5,7 +5,7 @@ import call from "@/public/call.png"
 import document from "@/public/document.png"
 export default function Task() {
   return (
-    <div className="w-[130%]  bg-white border border-black rounded-[24px] p-4">
+    <div className="sm:w-[130%] w-[100%]  bg-white border border-black rounded-[24px] p-4">
       <h5 className="font-clash_medium text-[24px]">Today&apos;s tasks</h5>
       <div className="flex justify-between items-center py-[21px] border-b-[1px] border-black">
         <div className="flex items-start gap-[10px]">

@@ -29,7 +29,7 @@ const Overview = () => {
           <h6>Add New Project</h6>
         </button>
       </div>
-      <div className="grid sm:grid-cols-12   gap-[24px] mt-8">
+      <div className="sm:grid sm:grid-cols-12   gap-[24px] mt-8">
         <div className="col-span-9 w-full">
           <div className="flex sm:flex-row flex-col gap-6">
             <div className="w-full">
@@ -93,8 +93,8 @@ const Overview = () => {
           </div>
           <ProjectMap />
         </div>
-        <div className="col-span-3 w-full">
-          <div className="w-full bg-white border border-black rounded-[24px] p-4">
+        <div className="col-span-3  w-full">
+          <div className="w-full sm:block hidden bg-white border border-black rounded-[24px] p-4">
             <div className="flex justify-between items-center">
               <h5 className="font-clash_medium text-lg ">Recent Messages</h5>
               <h6 className="text-sm font-clash_medium text-[#EB7B26]">

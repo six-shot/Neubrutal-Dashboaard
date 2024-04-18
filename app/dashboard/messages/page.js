@@ -5,7 +5,7 @@ import React from "react";
 function Messages() {
   return (
     <div>
-      <div className="px-[4%] mt-[]">
+      <div className="px-[4%] mt-[9vh]">
         <h5 className="font-clash_semibold text-2xl">Messages</h5>
         <div className="px-[18%] mt-[2%]">
           <div className="bg-[#FFF1B7] flex  rounded-[32px] p-[5px]">

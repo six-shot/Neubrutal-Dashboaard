@@ -147,41 +147,43 @@ export default function Header() {
         </div>
       </div>
       {/* Mobile header */}
-      <div className="px-[4%] py-[5%] flex sm:hidden justify-between items-center">
-        <div className="flex gap-2 items-center">
-          <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
-            <Image src={user} alt="user" />
+      <div className="sm:hidden top-0 w-full bg-[#FFFAE5] border-b-[1px] border-black fixed">
+        <div className="h-[8vh] px-[4%] py-[5%] flex justify-between items-center">
+          <div className="flex gap-2 items-center">
+            <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
+              <Image src={user} alt="user" />
+            </div>
+            <div className="flex flex-col">
+              <h5 className="leading-[20px]">
+                <span className="font-clash_regular text-xs">Welcome</span>{" "}
+                &#128075;
+              </h5>
+              <h5 className=" text-sm font-clash_medium">Rohan Kumar</h5>
+            </div>
           </div>
-          <div className="flex flex-col">
-            <h5 className="leading-[20px]">
-              <span className="font-clash_regular text-xs">Welcome</span>{" "}
-              &#128075;
-            </h5>
-            <h5 className=" text-sm font-clash_medium">Rohan Kumar</h5>
-          </div>
-        </div>
-        <div className="flex gap-2">
-          <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
-            <CiSearch
-              onClick={() => {
-                setShowModal(true);
-              }}
-              className="text-[24px] cursor-pointer"
-            />
-          </div>
-          <SearchModal onClose={handleClose} visible={showModal} />
-
-          <div className="  w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
-            <div className=" relative">
-              <IoMdNotificationsOutline
+          <div className="flex gap-2">
+            <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
+              <CiSearch
                 onClick={() => {
                   setShowModal(true);
                 }}
-                className=" text-[24px] cursor-pointer"
+                className="text-[24px] cursor-pointer"
               />
-              <h6 className="absolute -top-[2px] right-0 font-clash_medium border border-black text-[10px] w-[15px] h-[15px] flex justify-center items-center rounded-full bg-[#0BC56D]">
-                5
-              </h6>
+            </div>
+            <SearchModal onClose={handleClose} visible={showModal} />
+
+            <div className="  w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
+              <div className=" relative">
+                <IoMdNotificationsOutline
+                  onClick={() => {
+                    setShowModal(true);
+                  }}
+                  className=" text-[24px] cursor-pointer"
+                />
+                <h6 className="absolute -top-[2px] right-0 font-clash_medium border border-black text-[10px] w-[15px] h-[15px] flex justify-center items-center rounded-full bg-[#0BC56D]">
+                  5
+                </h6>
+              </div>
             </div>
           </div>
         </div>

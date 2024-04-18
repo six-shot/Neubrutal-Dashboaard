@@ -17,8 +17,8 @@ function Messages() {
             </button>
           </div>
         </div>
-        <div className="mt-[6%] flex flex-col gap-3">
-          <div className="w-full bg-white p-4 rounded-[12px] flex items-center gap-3">
+        <div className="mt-[6%] flex flex-col gap-0">
+          <div className="w-full  p-4 rounded-[12px] flex items-center gap-3">
             <div className="w-[40px] h-[40px]  rounded-full">
               <Image src={man} className="rounded-full" alt="man" />
             </div>
@@ -41,7 +41,7 @@ function Messages() {
               </div>
             </div>
           </div>
-          <div className="w-full bg-white p-4 rounded-[12px] flex items-center gap-3">
+          <div className="w-full  p-4 rounded-[12px] flex items-center gap-3">
             <div className="w-[40px] h-[40px]  rounded-full">
               <Image src={man} className="rounded-full" alt="man" />
             </div>
@@ -64,7 +64,7 @@ function Messages() {
               </div>
             </div>
           </div>
-          <div className="w-full bg-white p-4 rounded-[12px] flex items-center gap-3">
+          <div className="w-full p-4 rounded-[12px] flex items-center gap-3">
             <div className="w-[40px] h-[40px]  rounded-full">
               <Image src={man} className="rounded-full" alt="man" />
             </div>

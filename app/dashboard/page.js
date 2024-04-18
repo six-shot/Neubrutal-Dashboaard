@@ -16,8 +16,8 @@ import Task from "../components/dashboard/tasks";
 
 const Overview = () => {
   return (
-    <div className="px-[4%] sm:block hidden   pt-8">
-      <div className="w-full flex  justify-between items-center">
+    <div className="px-[4%]   sm:pt-8 pt-[6vh]">
+      <div className="w-full sm:flex hidden justify-between items-center">
         <div>
           <h4 className="font-clash_semibold text-[32px]">Overview</h4>
           <h6 className="text-sm text-[#575757] font-clash_regular">
@@ -29,7 +29,7 @@ const Overview = () => {
           <h6>Add New Project</h6>
         </button>
       </div>
-      <div className="grid grid-cols-12   gap-[24px] mt-8">
+      <div className="grid sm:grid-cols-12   gap-[24px] mt-8">
         <div className="col-span-9 w-full">
           <div className="flex sm:flex-row flex-col gap-6">
             <div className="w-full">

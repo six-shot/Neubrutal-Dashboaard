@@ -89,7 +89,7 @@ export default function Header() {
             <div
               className={`${
                 toggle ? "flex flex-col" : "hidden"
-              } px-3 py-3 bg-[#EB7B26] absolute -bottom-[370px] right-[4%] border border-black  my-2 min-h-[300px] min-w-[300px] rounded-xl sidebar z-10`}
+              } px-3 py-3 bg-[#EB7B26] absolute -bottom-[370px]  right-[4%] border border-black  my-2 min-h-[300px] min-w-[300px] rounded-xl sidebar `}
             >
               <div className="flex gap-3 items-center ">
                 <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
@@ -183,6 +183,58 @@ export default function Header() {
                 <h6 className="absolute -top-[2px] right-0 font-clash_medium border border-black text-[10px] w-[15px] h-[15px] flex justify-center items-center rounded-full bg-[#0BC56D]">
                   5
                 </h6>
+              </div>
+            </div>
+            <div className="relative">
+              <div
+                onClick={() => setToggle(!toggle)}
+                className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center"
+              >
+                <MdOutlineSettings className="text-[24px] cursor-pointer" />
+              </div>
+            </div>
+            <div
+              className={`${
+                toggle ? "flex flex-col" : "hidden"
+              } px-3 py-3 bg-[#EB7B26] z-[100] absolute -bottom-[370px] right-[4%] border border-black  my-2 min-h-[300px] min-w-[300px] rounded-xl sidebar `}
+            >
+              <div className="flex gap-3 items-center ">
+                <div className="w-[40px] h-[40px] rounded-full border border-black flex justify-center items-center">
+                  <Image src={user} alt="user" />
+                </div>
+                <div>
+                  <h5 className="text-sm font-clash_medium">Rohan Kumar</h5>
+                  <h6 className="text-[10px] font-clash_regular">
+                    rohankumar77@gmail.com
+                  </h6>
+                </div>
+              </div>
+              <div className="mt-[8%] flex gap-5 flex-col">
+                <div className="flex items-center gap-3">
+                  <IoMoonOutline className="text-[20px]" />
+                  <h5 className="font-clash_regular text-base">Dark Mode</h5>
+                </div>
+                <div className="flex items-center gap-3">
+                  <MdOutlineSettings className="text-[20px]" />
+                  <h5 className="font-clash_regular text-base">Settings</h5>
+                </div>
+                <div className="flex items-center gap-3">
+                  <GoClock className="text-[20px]" />
+                  <h5 className="font-clash_regular text-base">History</h5>
+                </div>
+                <div className="flex items-center gap-3">
+                  <RxUpdate className="text-[20px]" />
+                  <h5 className="font-clash_regular text-base">Updates</h5>
+                </div>
+                <hr className="h-[1px] bg-black border-black" />
+                <div className="flex items-center gap-3">
+                  <GoPlus className="text-[20px]" />
+                  <h5 className="font-clash_regular text-base">Add Account</h5>
+                </div>
+                <div className="flex items-center gap-3">
+                  <CgLogOut className="text-[20px]" />
+                  <h5 className="font-clash_regular text-base">Logout</h5>
+                </div>
               </div>
             </div>
           </div>

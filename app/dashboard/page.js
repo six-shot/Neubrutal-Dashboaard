@@ -29,20 +29,22 @@ const Overview = () => {
           <h6>Add New Project</h6>
         </button>
       </div>
-      <div className="sm:grid sm:grid-cols-12   gap-[24px] mt-8">
+      <div className="sm:grid sm:grid-cols-12    gap-[24px] mt-8">
         <div className="col-span-9 w-full">
-          <div className="flex sm:flex-row flex-col gap-6">
+          <div className="flex sm:flex-row flex-col sm:gap-6 gap-3.5">
             <div className="w-full">
-              <div className="relative border border-black rounded-[24px] overflow-hidden">
+              <div className="relative  border border-black rounded-[24px] overflow-hidden">
                 <div className="">
                   <div className="bg-[#FC95B4] w-full p-4  rounded-[24px]">
                     <div className="bg-[#FF7CA4] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
                       <Image src={calendar} alt="calendar" />
                     </div>
-                    <h5 className="font-clash_medium text-lg mt-3 ">
+                    <h5 className="font-clash_medium sm:text-lg text-base mt-3 ">
                       Upcoming Tasks
                     </h5>
-                    <h4 className="font-clash_semibold text-[40px]">40</h4>
+                    <h4 className="font-clash_semibold sm:text-[40px] text-[30px]">
+                      40
+                    </h4>
                   </div>
                 </div>
                 <div className="absolute  bottom-0 right-0">
@@ -57,10 +59,12 @@ const Overview = () => {
                     <div className="bg-[#FFC23D] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
                       <Image src={timer} alt="timer" />
                     </div>
-                    <h5 className="font-clash_medium text-lg mt-3 ">
+                    <h5 className="font-clash_medium sm:text-lg text-base mt-3 ">
                       In-Progress Tasks
                     </h5>
-                    <h4 className="font-clash_semibold text-[40px]">24</h4>
+                    <h4 className="font-clash_semibold sm:text-[40px] text-[30px]">
+                      24
+                    </h4>
                   </div>
                 </div>
                 <div className="absolute bottom-0 right-[1px]">
@@ -75,18 +79,16 @@ const Overview = () => {
                     <div className="bg-[#15B569] w-[32px] h-[32px] rounded-[8px] flex justify-center items-center ">
                       <Image src={done} alt="done" />
                     </div>
-                    <h5 className="font-clash_medium text-lg mt-3 ">
+                    <h5 className="font-clash_medium sm:text-lg text-base mt-3 ">
                       Completed Tasks
                     </h5>
-                    <h4 className="font-clash_semibold text-[40px]">75</h4>
+                    <h4 className="font-clash_semibold sm:text-[40px] text-[30px]">
+                      75
+                    </h4>
                   </div>
                 </div>
                 <div className="absolute   bottom-0 right-0 ">
-                  <Image
-                    src={doneshadow}
-                    alt="doneshadow"
-                    style={{ zIndex: 0 }}
-                  />
+                  <Image src={doneshadow} alt="doneshadow" />
                 </div>
               </div>
             </div>

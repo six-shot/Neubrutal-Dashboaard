@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
     <div className="relative">
       <div className="max-w-[1440px] mx-auto">
         <div className="w-full h-full    bg-[#FFFAE5]">
-          <div className="w-full h-screen bg-[#FFFAE5] rounded-[32px]">
+          <div className="w-full sm:h-screen bg-[#FFFAE5] sm:pb-0 pb-[30%]">
             <Header />
             {children}
           </div>

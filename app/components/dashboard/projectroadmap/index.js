@@ -8,7 +8,7 @@ export default function ProjectMap() {
   return (
     <div>
       <div className="mt-10">
-        <div className="flex justify-between items-center">
+        <div className="flex sm:flex-row flex-col justify-between items-center">
           <h5 className="font-clash_semibold text-lg mt-3 mb-2">
             Project Roadmap
           </h5>

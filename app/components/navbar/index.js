@@ -3,7 +3,7 @@ import { CgMenuGridO } from "react-icons/cg";
 export default function Navbar() {
   return (
     <div className="">
-      <div className="xl:px-10 px-4 h-[10vh]  border-b-[2px] border-black  relative nav  flex justify-between items-center ">
+      <div className="xl:px-10 px-4 sm:h-[10vh] h-[9vh]  border-b-[2px] border-black  relative nav  flex justify-between items-center ">
         <div className="">
           <h5 className="text-xl font-clash_bold">Tasker</h5>
         </div>

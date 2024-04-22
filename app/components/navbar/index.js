@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { CgMenuGridO } from "react-icons/cg";
 export default function Navbar() {
@@ -16,12 +17,14 @@ export default function Navbar() {
           </ul>
         </nav>
         <div className="flex flex-row items-center gap-4">
-          <button className="px-6 py-2 flex items-center gap-3 text-sm text-black font-clash_semibold bg-[#FFCE3D] rounded-[32px] border-[2px] border-black">
-            <h6>Get Started</h6>
-          </button>
+          <Link href="/authentication/welcome">
+            <button className="px-6 py-2 flex items-center gap-3 text-sm text-black font-clash_semibold bg-[#FFCE3D] rounded-[32px] border-[2px] border-black">
+              <h6>Get Started</h6>
+            </button>
+          </Link>
+
           <CgMenuGridO className="text-black text-[26px] sm:hidden flex " />
         </div>
-      
       </div>
     </div>
   );

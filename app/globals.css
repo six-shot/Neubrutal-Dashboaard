@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-body{
-  background-color: #FFFAE5;
+body {
+  background-color: #fffae5;
 }
-
 
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -36,26 +33,24 @@ body{
   }
 }
 
-
-.nav::before{
-  content: '';
+.nav::before {
+  content: "";
   position: absolute;
   width: 2px;
   height: 100%;
-  background-color:#000000;
-  left: 10%;
+  background-color: #000000;
+  right: -50%;
   display: block;
 }
-
 
 @media only screen and (max-width: 600px) {
- .nav::before{
-  content: '';
-  position: absolute;
-  width: 0px;
-  height: 100%;
-  background-color:#000000;
-  left: 10%;
-  display: block;
-}
+  .nav::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color: #000000;
+    left: 10%;
+    display: block;
+  }
 }

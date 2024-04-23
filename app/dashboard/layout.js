@@ -17,11 +17,11 @@ const Layout = ({ children }) => {
   return (
     // <div className="px-[3%] py-[3%] bg-black" style={style.bg}>
     <div className="relative">
-      <div className="max-w-[1440px] mx-auto">
+      <div>
         <div className="w-full h-full    bg-[#FFFAE5]">
           <div className="w-full sm:h-screen bg-[#FFFAE5] sm:pb-0 pb-[30%]">
             <Header />
-            {children}
+            <div className="max-w-[1440px] mx-auto">{children}</div>
           </div>
         </div>
       </div>

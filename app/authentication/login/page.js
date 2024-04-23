@@ -9,7 +9,7 @@ export default function page() {
     <div>
       {" "}
       <div className="px-[4%] py-[5%] w-full h-screen flex  flex-col">
-        <div className="w-full bg-[#0bc56e3f] h-[30vh] rounded-[32px] flex flex-col gap-5 justify-center items-center">
+        <div className="w-full bg-[#0BC56D] h-[30vh] rounded-[32px] flex flex-col gap-5 justify-center items-center">
           <h5 className="font-clash_semibold text-[40px]">Log In</h5>
           <IconContext.Provider value={{ color: "white", size: "20px" }}>
             <div className="flex gap-3 items-center">

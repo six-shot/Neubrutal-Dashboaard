@@ -60,6 +60,7 @@ export default function page() {
                 placeholder="Enter your password"
               />
             </div>
+            <input className="bg-black w-full h-[50px] text-white font-clash_medium rounded-[20px]" type="submit" value="Log In"/>
           </div>
         </form>
       </div>

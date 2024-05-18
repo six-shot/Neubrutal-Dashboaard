@@ -38,7 +38,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="px-[3%] sm:h-[10vh] h-[9vh]  border-b-[2px] border-black  relative   flex justify-between items-center ">
+      {/* <div className="px-[3%] sm:h-[10vh] h-[9vh]  border-b-[2px] border-black  relative   flex justify-between items-center ">
         <div className="max-w-[1440px] mx-auto w-full">
           <div className="flex justify-between items-center  w-full">
             {" "}
@@ -64,7 +64,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

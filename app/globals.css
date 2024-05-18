@@ -36,21 +36,23 @@ body {
 .nav::before {
   content: "";
   position: absolute;
-  width: 2px;
+  width: 100%;
   height: 100%;
-  background-color: #000000;
-  right: -50%;
+   background-color: #580960;
+   z-index: -999;
+  right: 0%;
   display: block;
+  top:10%;
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .nav::before {
     content: "";
     position: absolute;
     width: 0px;
     height: 100%;
-    background-color: #000000;
+    background-color: #580960;
     left: 10%;
     display: block;
   }
-}
+} */

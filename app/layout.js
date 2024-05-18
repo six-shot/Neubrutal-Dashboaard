@@ -26,17 +26,23 @@ const clash_extralight = localFont({
   src: "../public/font/ClashDisplayExtralight.otf",
   variable: "--font-clash_extralight",
 });
+const arcade = localFont({
+  src: "../public/font/8-bit Arcade Out.ttf",
+  variable: "--font-arcade",
+});
 const lato = Lato({
   subsets: ["latin"],
   variable: "--poppins",
   weight: ["100", "300", "400", "700", "900"],
 });
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html
       lang="en"
-      className={`${lato.variable} ${clash_bold.variable} ${clash_regular.variable} ${clash_medium.variable} ${clash_semibold.variable} ${clash_extralight.variable}`}
+      className={`${lato.variable} ${clash_bold.variable} ${clash_regular.variable} ${arcade.variable} ${clash_medium.variable} ${clash_semibold.variable} ${clash_extralight.variable}`}
     >
       <body>{children}</body>
     </html>
